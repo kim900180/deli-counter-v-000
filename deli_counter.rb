@@ -4,7 +4,7 @@ def line(array)
   counter = 0
   if array == []
     puts "The line is currently empty."
-  if array != []
+  elsif array != []
     while counter < array.size
       string << "#{counter}. #{array[counter]}"
       counter += 1
