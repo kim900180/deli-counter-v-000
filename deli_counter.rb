@@ -6,9 +6,9 @@ def line(array)
     puts "The line is currently empty."
   elsif array != []
     while counter < array.size
-      string << "#{counter + 1}. #{array[counter]} "
+      string << " #{counter + 1}. #{array[counter]}"
       counter += 1
     end
-    puts "The line is currently: " + string
+    puts "The line is currently:" + string
   end
 end
